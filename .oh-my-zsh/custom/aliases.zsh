@@ -1,0 +1,8 @@
+alias v='vim'
+alias multi-screen='xrandr --output eDP1 --auto --output HDMI1 --auto --above eDP1'
+alias single-screen='xrandr --auto'
+alias ms='multi-screen'
+alias build='ninja -C ~/cuauv/software'
+alias am='alsamixer -c 1'
+alias vtest='build && auv-visiond /home/zander/cuauv/software/vision/tests/video_zma& auv-vision-gui start; fg'
+alias auv='ssh -t auv zsh'
